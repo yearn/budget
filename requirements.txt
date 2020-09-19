@@ -1,0 +1,6 @@
+eth-brownie
+requests
+cachetools
+eth-abi
+eth-utils
+tqdm
