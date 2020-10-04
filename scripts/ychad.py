@@ -3,12 +3,11 @@ from decimal import Decimal
 from operator import itemgetter
 
 import requests
-from brownie import interface, web3
+from brownie import chain, interface, web3
 from cachetools import LRUCache, cached
 from eth_abi import encode_single
 from eth_utils import encode_hex
 from tqdm import tqdm
-
 
 api = 'https://safe-transaction.mainnet.gnosis.io/api/v1'
 ychad = '0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52'
@@ -93,6 +92,24 @@ def parse_transaction(tx):
         }
 
 
+def populate_erc20_transfers(row):
+    tx = chain.get_transaction(row['tx_hash'])
+    tx.wait(1)
+    if 'Transfer' not in tx.events:
+        return []
+    return [
+        {
+            'date': row['date'],
+            'from': ens_reverser(t['from'] if 'from' in t else t['src']),
+            'to': ens_reverser(t['to'] if 'to' in t else t['dst']),
+            'amount': Decimal(t['value'] if 'value' in t else t['wad']) / decimals(t.address),
+            'currency': token_name(t.address),
+            'tx_hash': row['tx_hash'],
+        }
+        for t in tx.events['Transfer']
+    ]
+
+
 def fetch_transactions(address):
     starting_urls = [f'{api}/safes/{address}/transactions/', f'{api}/safes/{address}/incoming-transfers/']
     transactions = []
@@ -108,6 +125,9 @@ def fetch_transactions(address):
                 if parsed is None:
                     continue
                 transactions.append(parsed)
+                # gnosis-safe api for outgoing txs omits erc20 trasnfers so we populate them by hand
+                if str(parsed['from']) == 'ychad.eth':
+                    transactions.extend(populate_erc20_transfers(parsed))
 
     return sorted(transactions, key=itemgetter('date'), reverse=True)
 
