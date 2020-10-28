@@ -129,7 +129,7 @@ def fetch_transactions(address):
                 if str(parsed['from']) == 'ychad.eth':
                     transactions.extend(populate_erc20_transfers(parsed))
 
-    return sorted(transactions, key=itemgetter('date'), reverse=True)
+    return sorted(transactions, key=itemgetter('date'))
 
 
 def write_csv(transactions, out_name):
