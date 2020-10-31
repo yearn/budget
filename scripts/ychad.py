@@ -29,7 +29,10 @@ def token_name(address):
 @cached(LRUCache(1000))
 def decimals(address):
     token = interface.ERC20(address)
-    return 10 ** token.decimals()
+    try:
+        return 10 ** token.decimals()
+    except ValueError:
+        return 1 # no info, fallback to raw value
 
 
 @cached(LRUCache(1000))
