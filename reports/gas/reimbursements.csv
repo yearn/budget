@@ -1,3 +1,3 @@
 id,address,name,eth,raw,tx,link,comment
-1,0x37fc68835dD1EF6D7660fA47E87774d4678e7BCB,Luciano,0.5026749320637102,502674932063710200,https://ethtx.info/mainnet/0xa4f45a103152f4bf417adf5574b23dcce237eeabfb480aff41f6a815f2fde071,https://explore.duneanalytics.com/queries/9885/source,ychad.eth registry,
-2.0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,Sam,1.1219192657600957696,1219192657600957696,https://etherscan.io/tx/0x9c05e078646526ce81e14bcbdd81d4ed1565db770c7648575e23cc8f8f7b05cc,https://explore.duneanalytics.com/queries/13940/source,strategist
+1,0x37fc68835dD1EF6D7660fA47E87774d4678e7BCB,Luciano,0.5026749320637102,502674932063710200,https://ethtx.info/mainnet/0xa4f45a103152f4bf417adf5574b23dcce237eeabfb480aff41f6a815f2fde071,https://explore.duneanalytics.com/queries/9885/source,ychad.eth registry
+2,0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,Sam,1.1219192657600957696,1219192657600957696,https://etherscan.io/tx/0x9c05e078646526ce81e14bcbdd81d4ed1565db770c7648575e23cc8f8f7b05cc,https://explore.duneanalytics.com/queries/13940/source,strategist
