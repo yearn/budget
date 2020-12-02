@@ -22,16 +22,15 @@ def token_name(address):
     token = interface.ERC20(address)
     try:
         return token.symbol()
-    except ValueError:
+    except (OverflowError, ValueError): # BadFunctionCallOutput
         return address
-
 
 @cached(LRUCache(1000))
 def decimals(address):
     token = interface.ERC20(address)
     try:
         return 10 ** token.decimals()
-    except ValueError:
+    except (OverflowError, ValueError): # BadFunctionCallOutput
         return 1 # no info, fallback to raw value
 
 
