@@ -40,3 +40,4 @@ id,address,name,eth,raw,tx,link,comment
 39,0x6afb7c9a6e8f34a3e0ec6b734942a5589a84f44c,ryan,0.06062067,60620670000000000,pending,https://gist.github.com/BobTheBuidler/dd0dae9b140551f402b7c2f777df9c6f
 40,0x7bacf22f747f2f4b983081c0aa76dddfecd008ab,matkam,0.93324589824516,933245898245160000,pending,https://gist.github.com/BobTheBuidler/0664210dadeff3c36bd9b65c156d0c1b
 41,0x1a123d835b006d27d4978c8eb40b14f08e0b8607,mattdw,1.79055,1790550000000000000,pending,https://gist.github.com/BobTheBuidler/39a30b5459fc4e38f6f594cf30a2023e
+42,0x8ef63b525fcef7f8662d98f77f5c9a86ae7dfe09,dudesahn,0.656857237,656857237000000000,pending,https://gist.github.com/BobTheBuidler/fb56a6ab86aa9fa10a4615afdd0511f5
