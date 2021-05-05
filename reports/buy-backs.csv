@@ -1,0 +1,11 @@
+Date,Method,Bought,Sold,Token,Transactions
+2020-12-01,Sushiswap,4.256402968,180,ETH,swap: https://etherscan.io/tx/0x898ab224087ec7127435a33ee114e6b392e51cdc82a4409fb9db67775bd1edca
+2020-12-26,Uniswap,2.172542,79.98,ETH,swap: https://etherscan.io/tx/0x76dc403213e0bf584a9f9c8a6894efdb15696102e06eba5b4ae811eb68e1594a
+2021-02-11,Sushiswap,3,76.04,ETH,swap: https://etherscan.io/tx/0x3ba7f549aff129df62cc5b98491d11f57465b6d71627261ef2c9c6e0d54ff9b2
+2021-03-25,OTC,6.180626332,200000,USDC,incoming: https://etherscan.io/tx/0x6b03dc7095e693f399c862705f9095d1dac92f7d1f84a6fefdba1e877c965cce; outgoing: https://etherscan.io/tx/0x4cf8c8409e0363e83c32e5feaba5453ff6d23870482b39aa3674a475d73fd1b0
+2021-04-07,OTC,5.169962518,200000,USDC,incoming: https://etherscan.io/tx/0xc8a7d4719e84b061a9557e9a4ddc540e8d04455fbbe0a7a855cf81dd23e3f595; outgoing: https://etherscan.io/tx/0x0316f8c28c2b92421df4586ce8732e20acb556bd84bc72cb10a1001ac5213947
+2021-04-14,OTC,5.558643690,250000,USDC,incoming: https://etherscan.io/tx/0xea25b0ecceeade5039be3c864a440a27dde70b72c85ba8a399c56bde1e21bdf2; outgoing: https://etherscan.io/tx/0xe9894091d0e8ecc53c1448c5fa15b1ffd60738fd56587537db9e9395edb4235d
+2021-04-17,Gnosis Auction,2.429177120,109422,USDC,initiate: https://etherscan.io/tx/0xf1932d22978b0e084ddf6b3c86e4d3aba8c7f937abde4f91748a95cd9e99dcca; settle: https://etherscan.io/tx/0xd98fbb7bf97afe0b71a0da98f9140e75d2ca2b825509b843da18b5d213fd1cf1
+2021-04-18,Gnosis Auction,8.632736191,404789,DAI,initiate: https://etherscan.io/tx/0x44e6c3f3b90c4a8d96489f36ac17701eda9ad61cd87f5131b4c1389ee36f8ff9; settle: https://etherscan.io/tx/0xcb0730339b003546355f455f0267e12822c568e0a13736fb1f2afabcaef6ec22
+2021-04-24,1inch,2.430758034,100000,USDC,outgoing: https://etherscan.io/tx/0x17faddb9126e2117cdb3be0a0c70b41ed0ea32e7dd4bfcfee2efc2115acef304; trade: https://etherscan.io/tx/0xa9ff710554b57e9f753c020f1ec227b69ad64a1931a924f86b8961219a410874; incoming: https://etherscan.io/tx/0xbe44b7bce997c4312366158b3b71da28b5df708b36e80d8def31250c4107918a
+2021-04-26,1inch,2.302923104,100000,USDC,outgoing: https://etherscan.io/address/0x5f0845101857d2A91627478e302357860b1598a1; trade: https://etherscan.io/tx/0x1f694a56d0d7e63a88b9b523d6b8dfce14b5c58452151790688f75d174b935d5; incoming: https://etherscan.io/tx/0xc0f200d1dc865ad491d9c8af8717a0ac0d949e78ad5e755ab301bba07a43a5c9
