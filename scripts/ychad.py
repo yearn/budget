@@ -76,6 +76,7 @@ def parse_transaction(tx):
             'date': tx['executionDate'],
             'from': ens_reverser(tx['from']),
             'to': ens_reverser(tx['to']),
+            'nonce': '',
             'amount': format_amount(tx),
             'currency': token_name(tx['tokenAddress']),
             'tx_hash': tx['transactionHash'],
@@ -88,6 +89,7 @@ def parse_transaction(tx):
             'date': tx['executionDate'],
             'from': ens_reverser(tx['safe']),
             'to': ens_reverser(tx['to']),
+            'nonce': tx['nonce'],
             'amount': format_amount(tx),
             'currency': token_name(None),
             'tx_hash': tx['transactionHash'],
@@ -136,7 +138,7 @@ def fetch_transactions(address):
 
 def write_csv(transactions, out_name):
     with open(out_name, 'wt') as f:
-        header = 'date,from,to,amount,currency,tx_hash'.split(',')
+        header = 'date,from,to,nonce,amount,currency,tx_hash'.split(',')
         writer = csv.DictWriter(f, header)
         writer.writeheader()
         writer.writerows(transactions)
