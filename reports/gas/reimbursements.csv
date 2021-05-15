@@ -44,8 +44,8 @@ id,address,name,eth,raw,tx,link,comment
 43,0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,sam,2.425734414383516794,2425734414383516794,https://etherscan.io/tx/0xd786627bdc8ccfc1b103b4fada5176b6d3144b55874cfcb46c2a2e4941be2558,https://duneanalytics.com/queries/41408,strategist
 44,0x710295b5f326c2e47E6dD2E7F6b5b0F7c5AC2F24,orb,4.209682625504603115,4209682625504603115,https://etherscan.io/tx/0xd786627bdc8ccfc1b103b4fada5176b6d3144b55874cfcb46c2a2e4941be2558,https://duneanalytics.com/queries/41408,strategist
 45,0x481140F916a4e64559694DB4d56D692CadC0326c,x48,4.459362490152894301,4459362490152894301,https://etherscan.io/tx/0xd786627bdc8ccfc1b103b4fada5176b6d3144b55874cfcb46c2a2e4941be2558,https://duneanalytics.com/queries/41408,lens
-46,0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,sam,5.888863780928452,5888863780928452243,pending,https://duneanalytics.com/queries/45829,strategist
-47,0x710295b5f326c2e47E6dD2E7F6b5b0F7c5AC2F24,orb,4.679028959060587,4679028959060587226,pending,https://duneanalytics.com/queries/45829,strategist
+46,0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,sam,11.821830079717568,11821830079717568839,pending,https://duneanalytics.com/queries/47451,strategist
+47,0x710295b5f326c2e47E6dD2E7F6b5b0F7c5AC2F24,orb,7.168286812250593,7168286812250592797,pending,https://duneanalytics.com/queries/47451,strategist
 48,0x16388463d60ffe0661cf7f1f31a7d658ac790ff7,wavey,1.1679806074679482,1167980607467948359,pending,https://gist.github.com/BobTheBuidler/f7f23b4827c3737a3ecd09d61c61165d,strategist
 49,0x73f2f3a4ff97b6a6d7afc03c449f0e9a0c0d90ab,poolpi,0.14578617247098577,145786172470985766,pending,https://gist.github.com/BobTheBuidler/fccc50263ff76cbac6ade967baad44c4,strategist
 50,0x7495b77b15fcb52fbb7bcb7380335d819ce4c04b,akshay,0.036171429,36171429000000000,pending,https://gist.github.com/BobTheBuidler/4160270829c5b16afce09ac2f7a381f2,strategist
