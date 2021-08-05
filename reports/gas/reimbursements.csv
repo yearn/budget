@@ -103,3 +103,17 @@ id,address,name,eth,raw,tx,link,comment
 102,0x1a123d835b006d27d4978c8eb40b14f08e0b8607,mattdw,0.422971317,422971317000000000,https://etherscan.io/tx/0xe966e3a8bbc99f29c78e2c461f6c1e7ce1b64fa092bee364a27b1ad437507648,https://gist.github.com/BobTheBuidler/c3a6af66e7434a51109487f3811f01f3,strategist
 103,0x1f93b58fb2cf33cfb68e73e94ad6dd7829b1586d,kevin,0.0163367892,16336789200000000,https://etherscan.io/tx/0xe966e3a8bbc99f29c78e2c461f6c1e7ce1b64fa092bee364a27b1ad437507648,https://gist.github.com/BobTheBuidler/a10dc883c0c821d711ce5f0c7a747221,strategist
 104,0x43229759e12efbe3e2a0fb0510b15e516d046442,mandalorian,1.553114887,1553114887000000000,https://etherscan.io/tx/0xe966e3a8bbc99f29c78e2c461f6c1e7ce1b64fa092bee364a27b1ad437507648,https://gist.github.com/BobTheBuidler/037203653f828cd119a8d549b5c020fd,strategist
+105,0xC3D6880fD95E06C816cB030fAc45b3ffe3651Cb0,sam,1.2017954235460375,1201795423546037584,pending,https://duneanalytics.com/queries/97184,strategist
+106,0x710295b5f326c2e47E6dD2E7F6b5b0F7c5AC2F24,orb,0.2439090143,243909014300000000,pending,https://duneanalytics.com/queries/97184,strategist
+107,0x481140F916a4e64559694DB4d56D692CadC0326c,x48,0.11617822943913318,116178229439133186,pending,https://duneanalytics.com/queries/97184,lens
+108,0xB28Af40C766044915d6f45313d2A8d94481F646F,jmonteer,0.47828177857414667,478281778574146714,pending,https://duneanalytics.com/queries/97184,strategist
+109,0x6afb7c9a6e8f34a3e0ec6b734942a5589a84f44c,wavey,0.63227031238,632270312380000000,pending,https://gist.github.com/BobTheBuidler/b62e15b30d3535a1501c56bedb4dabe6,strategist
+110,0x740d25cFda3aF381D90B6800C245E670E7841cd8,poolpi,0.332450675,332450675000000000,pending,https://gist.github.com/BobTheBuidler/21b52af80fe47382b1e1b99888cb62f2,strategist
+111,0xbedf3cf16ba1fce6c3b751903cf77e51d51e05b8,dudesahn,0.712988548,712988548000000000,pending,https://gist.github.com/BobTheBuidler/e033578d66eeb3f639a76018e0545e90,strategist
+112,0x1f93b58fb2cf33cfb68e73e94ad6dd7829b1586d,tonkers,0.0241713926,24171392600000000,pending,https://gist.github.com/BobTheBuidler/5066080f9825caa4999eab5cb5be235c,strategist
+
+
+
+
+
+
