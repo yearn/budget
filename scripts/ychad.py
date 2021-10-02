@@ -101,12 +101,16 @@ def populate_erc20_transfers(row):
     tx.wait(1)
     if 'Transfer' not in tx.events:
         return []
+
+    dst = ['to', '_to', 'dst', 'receiver']
+    src = ['from', '_from', 'src', 'sender']
+    wad = ['value', '_value', 'wad', 'amount']
     return [
         {
             'date': row['date'],
-            'from': ens_reverser(t['from'] if 'from' in t else t['src']),
-            'to': ens_reverser(t['to'] if 'to' in t else t['dst']),
-            'amount': Decimal(t['value'] if 'value' in t else t['wad']) / decimals(t.address),
+            'from': ens_reverser(next(t[k] for k in src if k in t)),
+            'to': ens_reverser(next(t[k] for k in dst if k in t)),
+            'amount': Decimal(next(t[k] for k in wad if k in t)) / decimals(t.address),
             'currency': token_name(t.address),
             'tx_hash': row['tx_hash'],
         }
