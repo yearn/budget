@@ -137,7 +137,7 @@ def fetch_transactions(address):
                 if parsed is None:
                     continue
                 transactions.append(parsed)
-                # gnosis-safe api for outgoing txs omits erc20 trasnfers so we populate them by hand
+                # gnosis-safe api for outgoing txs omits erc20 transfers so we populate them by hand
                 if str(parsed["from"]) == "ychad.eth":
                     transactions.extend(populate_erc20_transfers(parsed))
 
