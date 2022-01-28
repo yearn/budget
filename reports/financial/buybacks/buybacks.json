@@ -4,7 +4,7 @@
     "timestamp": "2020-11-17 17:30:00",
     "yfiAmount": 0.239646,
     "usdValue": 5224.0584,
-    "tokenAmount": 4400,
+    "tokenAmount": 4400.0,
     "token": "YUSD",
     "hash": "0x89f2dd2a9b316a0688c9be0aea2ce30ab2ba584506fab3ada65b93e311307d57"
   },
@@ -13,7 +13,7 @@
     "timestamp": "2020-11-17 17:30:00",
     "yfiAmount": 0.254446,
     "usdValue": 4986.6012,
-    "tokenAmount": 4200,
+    "tokenAmount": 4200.0,
     "token": "YUSD",
     "hash": "0x89f2dd2a9b316a0688c9be0aea2ce30ab2ba584506fab3ada65b93e311307d57"
   },
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "timestamp": "2021-02-11 18:26:00",
-    "yfiAmount": 3,
+    "yfiAmount": 3.0,
     "usdValue": 135988.2633,
     "tokenAmount": 76.044203,
     "token": "WETH",
@@ -48,8 +48,8 @@
     "id": 6,
     "timestamp": "2021-04-18 9:18:00",
     "yfiAmount": 8.632736,
-    "usdValue": 404789,
-    "tokenAmount": 404789,
+    "usdValue": 404789.0,
+    "tokenAmount": 404789.0,
     "token": "DAI",
     "hash": "0xcb0730339b003546355f455f0267e12822c568e0a13736fb1f2afabcaef6ec22"
   },
@@ -57,8 +57,8 @@
     "id": 7,
     "timestamp": "2021-04-24 18:43:00",
     "yfiAmount": 2.430758,
-    "usdValue": 100000,
-    "tokenAmount": 100000,
+    "usdValue": 100000.0,
+    "tokenAmount": 100000.0,
     "token": "USDC",
     "hash": "0xa9ff710554b57e9f753c020f1ec227b69ad64a1931a924f86b8961219a410874"
   },
@@ -66,15 +66,15 @@
     "id": 8,
     "timestamp": "2021-04-26 15:37:00",
     "yfiAmount": 2.302923,
-    "usdValue": 100000,
-    "tokenAmount": 100000,
+    "usdValue": 100000.0,
+    "tokenAmount": 100000.0,
     "token": "USDC",
     "hash": "0x1f694a56d0d7e63a88b9b523d6b8dfce14b5c58452151790688f75d174b935d5"
   },
   {
     "id": 9,
     "timestamp": "2021-07-09 21:12:00",
-    "yfiAmount": 1,
+    "yfiAmount": 1.0,
     "usdValue": 34223.69,
     "tokenAmount": 34223.69,
     "token": "GUSD",
@@ -85,7 +85,7 @@
     "timestamp": "2021-07-15 22:27:00",
     "yfiAmount": 0.004504,
     "usdValue": 148.139538,
-    "tokenAmount": 200,
+    "tokenAmount": 200.0,
     "token": "FOX",
     "hash": "0x860c81c25bd8b43608ee92d637c81be6a1d68b191519ec07c78d78c2ec119cd0"
   },
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "timestamp": "2021-07-18 19:57:00",
-    "yfiAmount": 2,
+    "yfiAmount": 2.0,
     "usdValue": 56077.76745,
     "tokenAmount": 56077.76745,
     "token": "DAI",
@@ -246,8 +246,8 @@
     "id": 28,
     "timestamp": "2021-08-04 17:06:00",
     "yfiAmount": 2.115091,
-    "usdValue": 70000,
-    "tokenAmount": 70000,
+    "usdValue": 70000.0,
+    "tokenAmount": 70000.0,
     "token": "USDT",
     "hash": "0x60ac7e6688f28747a43ce4d82ce0a17c572ca7e8e7d7b9a4f9ec205acec15488"
   },
@@ -345,8 +345,8 @@
     "id": 39,
     "timestamp": "2021-09-07 23:48:00",
     "yfiAmount": 2.006088,
-    "usdValue": 70000,
-    "tokenAmount": 70000,
+    "usdValue": 70000.0,
+    "tokenAmount": 70000.0,
     "token": "DAI",
     "hash": "0xe671078e1632c57394803b16ba0d469f51a87c5a90ab26ee227bcae604d8f949"
   },
@@ -354,31 +354,31 @@
     "id": 40,
     "timestamp": "2021-09-08 0:03:00",
     "yfiAmount": 4.286541,
-    "usdValue": 150250,
-    "tokenAmount": 150250,
+    "usdValue": 150250.0,
+    "tokenAmount": 150250.0,
     "token": "USDC",
     "hash": "0x5c7c674e7829610cf5cc5931031a80c0701d9977496a1216a62f33abca513405"
   },
   {
-    "id": 42,
+    "id": 41,
     "timestamp": "2021-09-11 3:52:00",
-    "yfiAmount": 1,
+    "yfiAmount": 1.0,
     "usdValue": 38451.39789,
     "tokenAmount": 38451.39789,
     "token": "DAI",
     "hash": "0xded2ccc0110f802c91ec6d1337b1a2928d5cb1e0ec2007aec5ea633adfdae9ad"
   },
   {
-    "id": 43,
+    "id": 42,
     "timestamp": "2021-09-22 20:25:00",
     "yfiAmount": 4.963605,
-    "usdValue": 150000,
-    "tokenAmount": 150000,
+    "usdValue": 150000.0,
+    "tokenAmount": 150000.0,
     "token": "USDC",
     "hash": "0xbb01f0b9230527ac603e757c51cb692170ccb111fc40d6329d593a398e36d8ea"
   },
   {
-    "id": 44,
+    "id": 43,
     "timestamp": "2021-09-24 12:02:00",
     "yfiAmount": 1.535446,
     "usdValue": 43380.81434,
@@ -387,52 +387,52 @@
     "hash": "0xbf12c3a9c2022dea5bde0667bd1d5ee6b731c0eac3b96bf44c61604da27d5a3c"
   },
   {
-    "id": 45,
+    "id": 44,
     "timestamp": "2021-09-24 17:32:00",
     "yfiAmount": 1.77181,
-    "usdValue": 50000,
-    "tokenAmount": 50000,
+    "usdValue": 50000.0,
+    "tokenAmount": 50000.0,
     "token": "USDC",
     "hash": "0x2db9d9c3a3475723be227aeba953d92102a10a5af6b4ca7962795b8d27a4da04"
   },
   {
-    "id": 46,
+    "id": 45,
     "timestamp": "2021-11-14 13:42:00",
     "yfiAmount": 7.591211,
     "usdValue": 259695.9765,
-    "tokenAmount": 4,
+    "tokenAmount": 4.0,
     "token": "WBTC",
     "hash": "0x327a5654836734e971ca11b2aea28b38d0358c9fe0a0515b3d34b0a51e2f77d7"
   },
   {
-    "id": 47,
+    "id": 46,
     "timestamp": "2021-11-14 14:03:00",
     "yfiAmount": 7.595579,
     "usdValue": 259387.3239,
-    "tokenAmount": 4,
+    "tokenAmount": 4.0,
     "token": "WBTC",
     "hash": "0xdc61663aeb41b93ae4da36c3c59ab0dc4b60a13c56293b0cf220b91c1f999007"
   },
   {
-    "id": 48,
+    "id": 47,
     "timestamp": "2021-11-14 15:18:00",
     "yfiAmount": 7.597116,
     "usdValue": 257588.0739,
-    "tokenAmount": 4,
+    "tokenAmount": 4.0,
     "token": "WBTC",
     "hash": "0x88969bbe03de308a303a69b3c29a521775fc2a50a7a03aac95f151902a6dfc22"
   },
   {
-    "id": 49,
+    "id": 48,
     "timestamp": "2021-11-15 19:03:00",
     "yfiAmount": 7.196746,
     "usdValue": 256706.6869,
-    "tokenAmount": 4,
+    "tokenAmount": 4.0,
     "token": "WBTC",
     "hash": "0xe93f094490db8731f55433650b5d10dacc491d2301521b41cba1082b230db05a"
   },
   {
-    "id": 50,
+    "id": 49,
     "timestamp": "2021-11-16 4:04:00",
     "yfiAmount": 5.871785,
     "usdValue": 188360.9151,
@@ -441,7 +441,7 @@
     "hash": "0x613019182537c4a30cc5def981bd3cf032cfae05ea1942b25274adc74116ccdc"
   },
   {
-    "id": 51,
+    "id": 50,
     "timestamp": "2021-11-25 14:06:00",
     "yfiAmount": 19.355563,
     "usdValue": 632525.1148,
@@ -450,7 +450,7 @@
     "hash": "0xa1a9bd644343d4bf413a9da85089bc57f092756d4ba3a118b13cfa37c03f4198"
   },
   {
-    "id": 52,
+    "id": 51,
     "timestamp": "2021-12-04 8:29:00",
     "yfiAmount": 8.373643,
     "usdValue": 663750.5572,
@@ -459,7 +459,7 @@
     "hash": "0x548758e3e4f0cc19edcebce71618e5a7751df2c1efb716834b699c9f4490bed4"
   },
   {
-    "id": 53,
+    "id": 52,
     "timestamp": "2021-12-07 10:17:00",
     "yfiAmount": 6.163052,
     "usdValue": 151290.7549,
@@ -468,7 +468,7 @@
     "hash": "0xccbd17070d9fdcf47a2ebdb029254d52db10d9849b8a4ddde74d7afb42cb8446"
   },
   {
-    "id": 54,
+    "id": 53,
     "timestamp": "2021-12-07 10:21:00",
     "yfiAmount": 14.505646,
     "usdValue": 327618.7531,
@@ -477,25 +477,25 @@
     "hash": "0xe6d1b0c8c85a2e10594fd7e7c5489fc0c4c99a4d4af206314e4dd9e8e990492c"
   },
   {
-    "id": 55,
+    "id": 54,
     "timestamp": "2021-12-16 1:18:00",
     "yfiAmount": 23.443263,
-    "usdValue": 500000,
-    "tokenAmount": 500000,
+    "usdValue": 500000.0,
+    "tokenAmount": 500000.0,
     "token": "DAI",
     "hash": "0xba35eb20f8f518d4e96b4d1a91be53bf91351df440854518b4052531396ac4eb"
   },
   {
-    "id": 56,
+    "id": 55,
     "timestamp": "2021-12-16 1:35:00",
     "yfiAmount": 23.12533,
-    "usdValue": 500000,
-    "tokenAmount": 500000,
+    "usdValue": 500000.0,
+    "tokenAmount": 500000.0,
     "token": "DAI",
     "hash": "0x457912ae031561d17169e532b622ec12e986eb8814464116a5ce23456106ec42"
   },
   {
-    "id": 57,
+    "id": 56,
     "timestamp": "2021-12-16 1:48:00",
     "yfiAmount": 30.460991,
     "usdValue": 671678.4858,
@@ -504,128 +504,128 @@
     "hash": "0x011f2e930f4deafd4fa24ddd795ea82eefc432096511513b7aca63530a976f50"
   },
   {
-    "id": 58,
+    "id": 57,
     "timestamp": "2021-12-16 2:03:00",
     "yfiAmount": 22.546297,
-    "usdValue": 500000,
-    "tokenAmount": 500000,
+    "usdValue": 500000.0,
+    "tokenAmount": 500000.0,
     "token": "DAI",
     "hash": "0x418556005859e0dc0423a45187d150a0d2253ba71adce25e459748ebd7588863"
   },
   {
-    "id": 59,
+    "id": 58,
     "timestamp": "2021-12-16 2:13:00",
     "yfiAmount": 22.35744,
-    "usdValue": 500000,
-    "tokenAmount": 500000,
+    "usdValue": 500000.0,
+    "tokenAmount": 500000.0,
     "token": "DAI",
     "hash": "0xb185916e62fd657c1b0540176b7a2b7f80e27125473daa13822b8cd5eca6bd84"
   },
   {
-    "id": 60,
+    "id": 59,
     "timestamp": "2022-01-04 18:25:00",
-    "yfiAmount": 10,
+    "yfiAmount": 10.0,
     "usdValue": 378538.5,
     "tokenAmount": 378538.5,
     "token": "DAI",
     "hash": "0xdc875dce3ad9b015122dd4e080f57d89e8f602fa31d9ae5948febb155ee25b35"
   },
   {
-    "id": 61,
+    "id": 60,
     "timestamp": "2022-01-07 14:21:00",
     "yfiAmount": 10.172341,
-    "usdValue": 350000,
-    "tokenAmount": 350000,
+    "usdValue": 350000.0,
+    "tokenAmount": 350000.0,
     "token": "DAI",
     "hash": "0x654ec708f1af4bb3ec7270e31671dbfebe150105183fc445066ce7466eb89f5c"
   },
   {
-    "id": 62,
+    "id": 61,
     "timestamp": "2022-01-07 22:59:00",
     "yfiAmount": 9.837229,
-    "usdValue": 350000,
-    "tokenAmount": 350000,
+    "usdValue": 350000.0,
+    "tokenAmount": 350000.0,
     "token": "DAI",
     "hash": "0xeed7ebb7d7ee0dff205b286a33535336d87cc5eba56779247b8c55327e1573ce"
   },
   {
-    "id": 63,
+    "id": 62,
     "timestamp": "2022-01-08 14:39:00",
     "yfiAmount": 13.996478,
-    "usdValue": 500000,
-    "tokenAmount": 500000,
+    "usdValue": 500000.0,
+    "tokenAmount": 500000.0,
     "token": "DAI",
     "hash": "0x03590027bb7650dbf95874061718c26c659d5a177718bac374bba60ffe5ff187"
   },
   {
-    "id": 64,
+    "id": 63,
     "timestamp": "2022-01-08 18:05:00",
     "yfiAmount": 9.077947,
-    "usdValue": 300000,
-    "tokenAmount": 300000,
+    "usdValue": 300000.0,
+    "tokenAmount": 300000.0,
     "token": "DAI",
     "hash": "0xc79384b0a7cd4a9fce0013ff90c7a008b7dee25f671d845303fc5866ccd857f9"
   },
   {
-    "id": 65,
+    "id": 64,
     "timestamp": "2022-01-10 15:24:00",
     "yfiAmount": 6.317258,
-    "usdValue": 200000,
-    "tokenAmount": 200000,
+    "usdValue": 200000.0,
+    "tokenAmount": 200000.0,
     "token": "DAI",
     "hash": "0xf572e0df958a2382e24470d62cfeb443a1a2b9057dfb79cc1dfead413a74d7bf"
   },
   {
-    "id": 66,
+    "id": 65,
     "timestamp": "2022-01-17 14:35:00",
     "yfiAmount": 6.170597,
-    "usdValue": 200000,
-    "tokenAmount": 200000,
+    "usdValue": 200000.0,
+    "tokenAmount": 200000.0,
     "token": "DAI",
     "hash": "0x819aa59dddcd1e6f2ff64625c6b6d2a796f8b28dc3270084600892995953e426"
   },
   {
-    "id": 67,
+    "id": 66,
     "timestamp": "2022-01-19 12:42:00",
     "yfiAmount": 6.19481,
-    "usdValue": 200000,
-    "tokenAmount": 200000,
+    "usdValue": 200000.0,
+    "tokenAmount": 200000.0,
     "token": "DAI",
     "hash": "0x62d1dc59b52778530984eb550a634ec5839b0bb166a8aa8b8d8a96b883092f7d"
   },
   {
-    "id": 68,
+    "id": 67,
     "timestamp": "2022-01-21 12:29:00",
     "yfiAmount": 6.908614,
-    "usdValue": 200000,
-    "tokenAmount": 200000,
+    "usdValue": 200000.0,
+    "tokenAmount": 200000.0,
     "token": "DAI",
     "hash": "0x0a6b514b750a95ddc71f083077e84dd276bee0b7f87db9f255dc7cf0d8f218d2"
   },
   {
-    "id": 69,
+    "id": 68,
     "timestamp": "2022-01-21 13:13:00",
     "yfiAmount": 6.968036,
-    "usdValue": 200000,
-    "tokenAmount": 200000,
+    "usdValue": 200000.0,
+    "tokenAmount": 200000.0,
     "token": "DAI",
     "hash": "0xaea69ad3ff00d7da7805471f65016c4050aa1bdedc05dd8a99c447cb5e592f0c"
   },
   {
-    "id": 70,
+    "id": 69,
     "timestamp": "2022-01-22 11:24:00",
     "yfiAmount": 13.178982,
-    "usdValue": 300000,
-    "tokenAmount": 300000,
+    "usdValue": 300000.0,
+    "tokenAmount": 300000.0,
     "token": "USDC",
     "hash": "0x05d8ef1b839342f6e99ca218597a5131d81b63ddd514181d826394c37f1d06fc"
   },
   {
-    "id": 71,
+    "id": 70,
     "timestamp": "2022-01-22 11:34:00",
     "yfiAmount": 5.236074,
-    "usdValue": 120000,
-    "tokenAmount": 120000,
+    "usdValue": 120000.0,
+    "tokenAmount": 120000.0,
     "token": "DAI",
     "hash": "0x5267e44fc5ef5146f2e759c4f5688b1d9df3354012ff8de52f12a0a6dd840097"
   }
