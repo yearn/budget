@@ -4,8 +4,9 @@ import csv
 import json
 
 BUYBACK = "Ignore:Buying YFI"
-INPUT = "reports/2022-01-28-yfi-crv-buy-backs.csv"
-OUPUT = "reports/2022-01-28-yfi-crv-buy-backs.json"
+FOLDER = "reports/financial/buybacks"
+INPUT = f"{FOLDER}/2022-01-28-yfi-crv-buy-backs.csv"
+OUPUT = f"{FOLDER}/2022-01-28-yfi-crv-buy-backs.json"
 
 
 def process():
@@ -21,7 +22,7 @@ def process():
                 data.append(j)
 
     with open(OUPUT, "w") as json_file:
-        json.dump(data, json_file)
+        json.dump(data, json_file, indent=2)
 
 
 def main():
