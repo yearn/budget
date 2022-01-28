@@ -15,7 +15,7 @@ def process():
         column_to_name = {"timestamp": 1, "yfiAmount": 6, "usdValue": -2, "tokenAmount": -3, "token": -4, "hash": 2}
         csv_reader = csv.reader(csv_file, delimiter=",")
         for lines in csv_reader:
-            if lines[-1] == BUYBACK:
+            if lines[-1] == BUYBACK and lines[column_to_name["yfiAmount"]] != "":
                 j = {}
                 for col, i in column_to_name.items():
                     j[col] = lines[i]
