@@ -844,6 +844,50 @@
     "tokenAmount": 400000.0,
     "token": "USDC",
     "hash": "0x4112aa30e67c71f4bd0f6679f3f39bf8b474ebf199f314e084d0710bb10bb2f4"
+  },
+  {
+    "id": 95,
+    "timestamp": "2022-04-19 17:16:00",
+    "yfiAmount": 12.86096,
+    "usdValue": 250000.0,
+    "tokenAmount": 250000.0,
+    "token": "DAI",
+    "hash": "0x01446523166523cc8087a9e32cbbb4bd01caf28f5fbd498a275585824e40d5e2"
+  },
+  {
+    "id": 96,
+    "timestamp": "2022-04-22 18:25:00",
+    "yfiAmount": 13.298972,
+    "usdValue": 250000.0,
+    "tokenAmount": 250000.0,
+    "token": "DAI",
+    "hash": "0x48c096efeb3bb1a9f7829634c2b6e486a175dd6e70bd5198a9124b3d6e7abae8"
+  },
+  {
+    "id": 97,
+    "timestamp": "2022-04-25 13:24:00",
+    "yfiAmount": 13.641758,
+    "usdValue": 250000.0,
+    "tokenAmount": 250000.0,
+    "token": "DAI",
+    "hash": "0x5b1d0f69ca2a45bb008975ca6b070013390b3b4681c3754195b027e25c716b6c"
+  },
+  {
+    "id": 98,
+    "timestamp": "2022-04-28 17:16:00",
+    "yfiAmount": 13.843792,
+    "usdValue": 250000.0,
+    "tokenAmount": 250000.0,
+    "token": "DAI",
+    "hash": "0xfefeae03198c986f0a941121d83cc95c25a15ceaba2d2383572e4869f163db00"
+  },
+  {
+    "id": 99,
+    "timestamp": "2022-04-11 18:45:00",
+    "yfiAmount": 26.851851,
+    "usdValue": 500400.0,
+    "tokenAmount": 500400.0,
+    "token": "DAI",
+    "hash": "0x0efc287cea599598d7d6ea6663aaf776a374bb8be443c408291c86af1a80c07e"
   }
 ]
-
