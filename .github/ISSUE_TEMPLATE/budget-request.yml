@@ -1,0 +1,64 @@
+name: Budget request
+description: Request budget for a project and report on its progress
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is the aim and the outcomes of your project?
+      placeholder: I'm trying to solve…
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plan
+      description: What are the points of your action plan?
+      placeholder: I'm going to solve it…
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: When do you expect to finish it?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: people
+    attributes:
+      label: People
+      description: Who are the people working on the project? List their responsibilities and name your leader.
+    validations:
+      required: true
+  - type: textarea
+    id: money
+    attributes:
+      label: Money
+      description: Describe how you plan to spend the money on the project.
+    validations:
+      required: true
+  - type: input
+    id: amount
+    attributes:
+      label: Amount
+      description: How much money do you need
+      placeholder: 1000 DAI
+    validations:
+      required: true
+  - type: input
+    id: wallet
+    attributes:
+      label: Wallet address
+      description: Where do you want the money to be sent?
+    validations:
+      required: true
+  - type: checkboxes
+    id: reporting
+    attributes:
+      label: Reporting
+      description: After getting your request approved you commit to posting regular updates in the form of comments to this issue."
+      options:
+        - label: I agree to post weekly updates
+          required: true
