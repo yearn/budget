@@ -30,7 +30,7 @@ body:
     id: people
     attributes:
       label: People
-      description: Who are the people working on the project? List their responsibilities and name your leader. If this request is supported by a current contributor, name them.
+      description: Who are the people working on the project? List their responsibilities and name your leader.\n\nIf this request is supported by a current contributor, name them.
     validations:
       required: true
   - type: textarea
@@ -59,7 +59,7 @@ body:
     id: reporting
     attributes:
       label: Reporting
-      description: After getting your request approved you commit to posting regular updates in the form of comments to this issue."
+      description: After getting your request approved you commit to posting regular updates in the form of comments to this issue.
       options:
         - label: I agree to post weekly updates
           required: true
