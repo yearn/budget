@@ -30,7 +30,10 @@ body:
     id: people
     attributes:
       label: People
-      description: Who are the people working on the project? List their responsibilities and name your leader.\n\nIf this request is supported by a current contributor, name them.
+      description: |
+        Who are the people working on the project? List their responsibilities and name your leader.
+        
+        If this request is supported by a current contributor, name them.
     validations:
       required: true
   - type: textarea
