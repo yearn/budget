@@ -1,0 +1,19 @@
+name: notify ybudget
+on:
+  issues:
+    types: [labeled]
+  workflow_dispatch:
+jobs:
+  notify:
+    if: github.event.label.name == 'request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: send telegram message
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            new budget request
+            "${{ github.event.issue.title }}"
+            ${{ github.server_url }}/${{ github.repository }}/issues/${{ github.event.issue.number }}
