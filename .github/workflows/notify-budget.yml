@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   notify:
-    if: github.event.label.name == 'request'
+    if: github.event.label.name == 'budget request'
     runs-on: ubuntu-latest
     steps:
       - name: send telegram message
