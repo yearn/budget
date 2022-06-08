@@ -8,12 +8,26 @@ jobs:
     if: github.event.label.name == 'budget request'
     runs-on: ubuntu-latest
     steps:
-      - name: send telegram message
-        uses: appleboy/telegram-action@master
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
-          to: ${{ secrets.TELEGRAM_TO }}
-          token: ${{ secrets.TELEGRAM_TOKEN }}
-          message: |
+            python-version: 3.8
+
+      - name: Install Dependencies
+        run: pip install multisig-ci==0.3.2
+
+      - name: Create Telegram message 
+        run: |
+            TELEGRAM_MESSAGE=$(cat << EOF
             new budget request
             "${{ github.event.issue.title }}"
             ${{ github.server_url }}/${{ github.repository }}/issues/${{ github.event.issue.number }}
+            EOF
+            )
+            echo "TELEGRAM_MESSAGE<<EOF" >> $GITHUB_ENV
+            echo "$TELEGRAM_MESSAGE" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+
+      - name: Send and pin Telegram message
+        run: |
+          python3 -m multisig_ci send_and_pin_message ${{ secrets.TELEGRAM_TOKEN }} ${{ secrets.TELEGRAM_TO }}
