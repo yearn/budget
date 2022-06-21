@@ -1,0 +1,16 @@
+name: close rejected
+on:
+  schedule:
+    - cron: '30 1 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/stale@v4
+        with:
+          only-issue-labels: 'rejected'
+          days-before-issue-stale: 4
