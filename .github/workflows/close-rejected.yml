@@ -12,5 +12,6 @@ jobs:
     steps:
       - uses: actions/stale@v4
         with:
+          repo-token: ${{ secrets.PAT }}
           only-issue-labels: 'rejected'
           days-before-issue-stale: 4
