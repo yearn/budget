@@ -13,5 +13,7 @@ jobs:
       - uses: actions/stale@v4
         with:
           repo-token: ${{ secrets.PAT }}
-          only-issue-labels: 'rejected'
-          days-before-issue-stale: 4
+          only-labels: 'rejected'
+          stale-issue-label: 'stale'
+          days-before-stale: 4
+          days-before-close: 4
