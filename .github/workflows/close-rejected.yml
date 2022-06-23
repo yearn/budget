@@ -14,4 +14,6 @@ jobs:
         with:
           repo-token: ${{ secrets.PAT }}
           only-labels: 'rejected'
-          days-before-issue-stale: 4
+          stale-issue-label: 'stale'
+          days-before-stale: 4
+          days-before-close: 4
