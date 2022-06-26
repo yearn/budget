@@ -16,4 +16,4 @@ jobs:
           only-labels: 'rejected'
           stale-issue-label: 'stale'
           days-before-stale: 4
-          days-before-close: 4
+          days-before-close: 1
