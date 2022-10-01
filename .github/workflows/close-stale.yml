@@ -1,4 +1,4 @@
-name: close rejected
+name: close stale
 on:
   schedule:
     - cron: '30 1 * * *'
@@ -13,7 +13,7 @@ jobs:
       - uses: actions/stale@v4
         with:
           repo-token: ${{ secrets.PAT }}
-          only-labels: 'rejected'
+          any-of-labels: 'rejected','dropped'
           stale-issue-label: 'stale'
-          days-before-stale: 4
+          days-before-stale: 2
           days-before-close: 1
