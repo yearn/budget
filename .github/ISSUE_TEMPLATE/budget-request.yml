@@ -62,7 +62,9 @@ body:
     id: reporting
     attributes:
       label: Reporting
-      description: After getting your request approved you commit to posting regular updates in the form of comments to this issue.
+      description: After getting your request approved you commit to posting updates in the form of comments to this issue. I agree to post updates: 
       options:
-        - label: I agree to post weekly updates
+        - label: Weekly
+        - label: Monthly
+        - label: Once
           required: true
