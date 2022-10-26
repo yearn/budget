@@ -60,12 +60,12 @@ body:
       required: true
   - type: dropdown
     id: reporting
-    validations:
-      required: true
     attributes:
       label: Reporting
-      description: After getting your request approved you commit to posting updates in the form of comments to this issue. I agree to post updates: 
+      description: "After getting your request approved you commit to posting updates in the form of comments to this issue. I agree to post updates:"
       options:
         - Weekly
         - Monthly
         - Once
+    validations:
+      required: true
