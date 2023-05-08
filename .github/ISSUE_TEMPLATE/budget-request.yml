@@ -55,7 +55,7 @@ body:
     id: wallet
     attributes:
       label: Wallet address
-      description: Where do you want the money to be sent?
+      description: Where do you want the money to be sent? If applying as a team, please create a multisig and submit a single address.
     validations:
       required: true
   - type: dropdown
