@@ -1,6 +1,7 @@
 name: Budget request
 description: Request budget for a project and report on its progress
 labels: [budget request]
+projects: ["yearn/22"]
 body:
   - type: textarea
     id: scope
