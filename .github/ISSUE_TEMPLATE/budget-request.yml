@@ -47,7 +47,7 @@ body:
   - type: input
     id: amount
     attributes:
-      label: Amount
+      label: Amount (Total)
       description: How much money do you need in total
       placeholder: 1000 DAI
     validations:
