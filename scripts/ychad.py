@@ -1,3 +1,52 @@
+"""
+Vaults May-Jul Funding Request Budget Script
+
+This script defines and validates the funding request for the Vaults product
+for the May through July period as specified in GitHub Issue #342.
+"""
+
+# Funding request breakdown (USD)
+FUNDING_REQUEST = {
+    "smart_contract_code_and_strategy_development": 135_000,
+    "security_and_monitoring": 44_550,
+    "business_development": 46_405,
+    "webops": 122_400,
+    "web2_hosting_and_dns_management": 8_250,
+    "ysupport": 9_150,
+}
+
+EXPECTED_TOTAL = 365_755
+
+
+def get_total_funding() -> int:
+    """Calculate and return the total funding request."""
+    return sum(FUNDING_REQUEST.values())
+
+
+def validate_budget() -> bool:
+    """Validate that the budget items sum to the expected total."""
+    total = get_total_funding()
+    if total != EXPECTED_TOTAL:
+        raise ValueError(
+            f"Budget mismatch: calculated {total}, expected {EXPECTED_TOTAL}"
+        )
+    return True
+
+
+def print_budget_breakdown() -> None:
+    """Print a formatted budget breakdown."""
+    print("Vaults May-Jul Funding Request Breakdown")
+    print("=" * 50)
+    for item, amount in FUNDING_REQUEST.items():
+        label = item.replace("_", " ").title()
+        print(f"  {label}: ${amount:,.2f}")
+    print("-" * 50)
+    print(f"  Total: ${get_total_funding():,.2f}")
+
+
+if __name__ == "__main__":
+    validate_budget()
+    print_budget_breakdown()
 import csv
 from decimal import Decimal
 from operator import itemgetter
