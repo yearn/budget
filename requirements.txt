@@ -1,4 +1,4 @@
-eth-brownie
+eth-brownie==1.22.2
 requests
 cachetools
 eth-abi
