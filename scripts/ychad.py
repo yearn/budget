@@ -1,4 +1,59 @@
-import csv
+# Budget allocation for Vaults May-Jul Funding Request (Issue #342)
+
+BUDGET_ALLOCATIONS = {
+    "smart_contract_development": 135000,
+    "security_and_monitoring": 44550,
+    "business_development": 46405,
+    "webops": 122400,
+    "web2_hosting_dns": 8250,
+    "ysupport": 9150,
+}
+
+TOTAL_BUDGET = sum(BUDGET_ALLOCATIONS.values())
+
+
+def get_allocation(category: str) -> int:
+    """Return the USD allocation for a given budget category."""
+    if category not in BUDGET_ALLOCATIONS:
+        raise ValueError(
+            f"Unknown budget category '{category}'. "
+            f"Valid categories: {list(BUDGET_ALLOCATIONS.keys())}"
+        )
+    return BUDGET_ALLOCATIONS[category]
+
+
+def validate_budget() -> bool:
+    """Validate that all allocations are positive and sum correctly."""
+    for category, amount in BUDGET_ALLOCATIONS.items():
+        if amount <= 0:
+            raise ValueError(
+                f"Allocation for '{category}' must be positive, got {amount}"
+            )
+    computed_total = sum(BUDGET_ALLOCATIONS.values())
+    if computed_total != TOTAL_BUDGET:
+        raise ValueError(
+            f"Budget mismatch: expected {TOTAL_BUDGET}, got {computed_total}"
+        )
+    return True
+
+
+def generate_report() -> str:
+    """Generate a formatted budget report for the Vaults funding request."""
+    lines = [
+        "Vaults May-Jul Funding Request (Issue #342)",
+        "=" * 45,
+    ]
+    for category, amount in BUDGET_ALLOCATIONS.items():
+        label = category.replace("_", " ").title()
+        lines.append(f"  {label:<30} ${amount:>10,}")
+    lines.append("-" * 45)
+    lines.append(f"  {'Total':<30} ${TOTAL_BUDGET:>10,}")
+    return "\n".join(lines)
+
+
+if __name__ == "__main__":
+    validate_budget()
+    print(generate_report())
 from decimal import Decimal
 from operator import itemgetter
 
