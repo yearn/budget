@@ -4,9 +4,8 @@ produce a csv with all incoming and outgoing transactions of [yearn multisig](ht
 
 ## installation
 
-- install python 3.10+
+- install python 3.7+
 - pip install -r requirements.txt
-- pip install -U -r security-overrides.txt (eth-brownie pins old certifi/aiohttp/urllib3)
 
 ## usage
 

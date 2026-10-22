@@ -1,8 +1,0 @@
-# eth-brownie pins certifi, aiohttp and urllib3 exactly, so pip keeps old,
-# vulnerable copies. Install this file AFTER requirements.txt to override them:
-#   pip install -U -r security-overrides.txt
-# (pip will warn that eth-brownie wants other versions; that is expected.)
-# Needs Python >=3.10 (aiohttp 3.14 and urllib3 2.8 dropped 3.9).
-certifi>=2026.10.19
-aiohttp>=3.14.4
-urllib3>=2.8.0
