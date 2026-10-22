@@ -1,5 +1,47 @@
-import csv
-from decimal import Decimal
+"""Yearn Vaults Aug-Oct Funding Request (Issue #354) budget entry generator."""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+BUDGET_PERIOD = "2024-08 to 2024-10"
+PRODUCT = "Vaults V3"
+
+FUNDING_REQUESTS = {
+    "Smart Contract Code and Strategy Development": 135_000,
+    "Security and Monitoring": 44_550,
+    "Business Development": 27_500,
+    "WebOps": 90_216,
+    "Production Engineering": 45_000,
+}
+
+TOTAL_FUNDING = sum(FUNDING_REQUESTS.values())
+
+
+def build_budget_entry() -> dict:
+    """Return a structured budget entry for the Vaults Aug-Oct funding request."""
+    return {
+        "issue": 354,
+        "product": PRODUCT,
+        "period": BUDGET_PERIOD,
+        "line_items": [
+            {"category": category, "amount_usd": amount}
+            for category, amount in FUNDING_REQUESTS.items()
+        ],
+        "total_usd": TOTAL_FUNDING,
+    }
+
+
+def write_budget_json(output_path: str | Path = "budget_vaults_aug_oct.json") -> Path:
+    """Write the budget entry to a JSON file and return the path."""
+    path = Path(output_path)
+    path.write_text(json.dumps(build_budget_entry(), indent=2) + "\n")
+    return path
+
+
+if __name__ == "__main__":
+    written = write_budget_json()
+    print(f"Wrote {written} ({TOTAL_FUNDING:,} USD total)")
 from operator import itemgetter
 
 import requests
